@@ -10,4 +10,8 @@ describe 'Fizzbuzz' do
     expect(is_divisible_by_three(5)).to be false
   end
 
+  it "should check a number is divisible by five" do
+    expect(is_divisible_by_five(5)).to be true
+  end
+
 end
